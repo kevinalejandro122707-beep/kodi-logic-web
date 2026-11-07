@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KODI-LOGIC | Desarrollo y Software</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. Barra de Navegación -->
+    <header class="navbar">
+        <div class="logo">KODI-LOGIC</div>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto" class="nav-btn">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- 2. Pantalla de Inicio / Hero (¡Intacta!) -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h1>KODI-LOGIC</h1>
+            <p>Innovación, desarrollo y software de alto rendimiento para llevar tu negocio al siguiente nivel.</p>
+            <div class="hero-buttons">
+                <a href="#proyectos" class="btn btn-primary">Ver proyectos exitosos</a>
+                <a href="#contacto" class="btn btn-secondary">Empezar proyecto</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Sección de Servicios -->
+    <section id="servicios" class="services-section">
+        <h2>Nuestros Servicios</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Páginas Web</h3>
+                <p>Diseños modernos, rápidos y adaptados a celulares para captar más clientes.</p>
+            </div>
+            <div class="service-card">
+                <h3>Software a Medida</h3>
+                <p>Soluciones en C# y bases de datos optimizadas para automatizar procesos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Apartado de Proyectos Exitosos -->
+    <section id="proyectos" class="projects-section">
+        <div class="container">
+            <h2>Proyectos Exitosos</h2>
+            <p>Conoce los desarrollos y soluciones de software creadas para nuestros clientes.</p>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="Sistema de Gestión Web">
+                    </div>
+                    <div class="project-info">
+                        <h3>Sistema Web de Gestión</h3>
+                        <p>Plataforma para control de procesos con interfaz moderna en modo oscuro.</p>
+                        <div class="tags">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80" alt="Software en C#">
+                    </div>
+                    <div class="project-info">
+                        <h3>Software Empresarial C#</h3>
+                        <p>Sistema a medida para automatización de inventarios y procesos.</p>
+                        <div class="tags">
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">SQL Server</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Apartado de Contacto con Formulario (Nombre, Correo y Mensaje) -->
+    <section id="contacto" class="contact-section">
+        <div class="container">
+            <h2>¿Listo para impulsar tu proyecto?</h2>
+            <p>Escríbenos y comencemos a construir tu solución tecnológica hoy mismo.</p>
+            
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje o Detalles del Proyecto</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos qué necesita tu negocio..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
